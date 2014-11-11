@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Linear Layout (4) -->
+
+    <TextView
+        android:id="@+id/textViewTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSpec"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@+id/radioGroup3"
+        android:text="@string/top"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewTop"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/textViewTop"
+        android:orientation="horizontal" >
+
+       <RadioButton
+            android:id="@+id/group5Radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:checked="true"
+            android:text="@string/num0" />
+
+        <RadioButton
+            android:id="@+id/group5Radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/num1" />
+
+        <RadioButton
+            android:id="@+id/group5Radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/num2" />
+
+        <RadioButton
+            android:id="@+id/group5Radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/num3" />
+
+        <RadioButton
+            android:id="@+id/group5Radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/num4" />
+         
+        <RadioButton
+            android:id="@+id/group5Radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/num5" />
+        
+         <RadioButton
+            android:id="@+id/group5Radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/num6" />
+         
+          <RadioButton
+            android:id="@+id/group5Radio7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/num7" />
+          
+           <RadioButton
+            android:id="@+id/group5Radio8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/num8" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewTopDollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTop"
+        android:layout_alignTop="@+id/textViewTop"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/radioGroup4"
+        android:labelFor="@+id/editText4"
+        android:text="@string/dollar"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     <TextView
+        android:id="@+id/subTotal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/radioGroup5"
+        android:layout_marginRight="20dp"
+        android:text="@string/zero"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <!-- Linear Layout (4) for 小点  END -->
+
+</merge>

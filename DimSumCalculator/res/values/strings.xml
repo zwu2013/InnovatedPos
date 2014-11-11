@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DimSumCalculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Dim Sum Names Quantity -->
+    <string name="zero">0.0</string>
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="num10">10</string>
+    <string name="dollar">$</string>
+    <!-- Dim Sum Names Quantity END -->
+
+
+    <!-- Dim Sum Names -->
+    <string name="small">小点</string>
+    <string name="medium">中点</string>
+    <string name="large">大点</string>
+    <string name="specical">特点</string>
+    <string name="top">顶点</string>
+    <string name="supers">超点</string>
+    <string name="newOrder">New Order</string>
+    <string name="done">Done</string>
+    <string name="total">Total</string>
+    <!-- Dim Sum Names END -->
+
+</resources>
